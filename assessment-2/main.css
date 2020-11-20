@@ -1,0 +1,122 @@
+html {
+    /* height: 100%; */
+    width: 100%;
+}
+
+body {
+    /* height: 100%; */
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+    /* position: fixed; */
+    /* margin-top: auto; */
+}
+
+.shop-now {
+    margin: 0;
+}
+
+main {
+    /* background-color: skyblue; */
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    padding-left: 0;
+    /* margin-top: 0; */
+    /* margin-left: 10rem; */
+}
+
+.tag-item {
+    margin: 1rem 2rem 2rem 5rem;
+}
+
+img {
+    height: 15rem;
+    /* margin: auto; */
+    width: 15rem;
+    margin-top: 1.5rem;
+}
+
+.total-price {
+    margin-left: 20rem;
+}
+
+h4 {
+    text-align: center;
+    /* background-color: tomato; */
+    background-color: black;
+    color: white;
+}
+
+.product-items {
+    line-height: 0;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
